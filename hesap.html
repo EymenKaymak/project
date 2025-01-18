@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link href="hesap.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h2>hesap makinesi</h2>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2"><h2>hesap makinesi</h2></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2"><h3>İlk Sayı:</h3><input type="text" id="ilksayi" class="metin2"><br></td>
+            </tr>
+            <tr>
+                <td colspan="2"><h3>İkinci Sayı: </h3><input type="text" class="metin2" id="ikincisayi"><br></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div id="islembuton">
+                        <input type="button" value="*" id="carp" class="tsrm2">
+                        <input type="button" value="-" id="cikart" class="tsrm2">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div id="islembuton">
+                        <input type="button" value="/" id="bol" class="tsrm2">
+                        <input type="button" value="+" id="topla" class="tsrm2">
+                    </div>
+                    <div class="metin" id="sonuc"></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <script type="text/javascript" src="hesap.js"></script>
+</body>
+</html>
